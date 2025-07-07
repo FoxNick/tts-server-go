@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         goos: [android]
-        goarch: ["x86", x86_64, arm, arm64]
+        goarch: [arm, arm64]
         include:
         - goos: linux
           goarch: mipsle
